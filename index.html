@@ -1,91 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://fonts.googleapis.com/css?family=League Spartan' rel='stylesheet'>
-  <link rel="stylesheet" href="ahaz.css">
-  <title>Расписание учителя</title>
+  <title>g</title>
+  <link rel="stylesheet" href="f.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-
-  <div class="label">
-    <P class="label1">Расписание учителя</P>
+  <div class="start">
+    <input type="search" class="search" value="Поиск предмета">
   </div>
-
-
-<div class = "blocks">
-    <select class = "years">
-      <option class="yearstext">2021</option>
-      <option class="yearstext">2022</option>
-      <option class="yearstext">2023</option>
-    </select>
-
-  <div class = "semestr1">
-    <p class = "yearstext">1 Семестр</p>
+  <div class="he">
+    <div class="W">
+      <select class="primary-select primary-border">
+        <option disabled value="">Выберите год</option>
+        <option value="">2023</option>
+        <option :value="option">
+        </option>
+      </select>
+    </div>
+    <div class="W">
+      <button class="primary-btn btn_long">1 семестр</button>
+      <button class="primary-btn btn_long">2 семестр</button>
+    </div>
   </div>
-
-  <div class = "semestr2">
-    <p class = "yearstext" style = "font-size: 17px;">2 Семестр</p>
-  </div>
-</div>
-
-  <div class="mobile-table">
-  <table class="iksweb">
-  <thead>
-  <tr>
-    <th style="width: 10px;">Число</th>
-    <th>Понедельник</th>
-    <th>Вторник</th>
-    <th>Среда</th>
-    <th>Четверг</th>
-    <th>Пятница</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td style = "width: 10px;">1</td>
-    <td>В-011б<br>9:30</td>
-    <td>STA 311<br>11:30</td>
-    <td>MTH 313<br>9:30</td>
-    <td>MTH 317<br>10:00</td>
-    <td>MTH 341<br>10:30</td>
-  </tr>
-  <tr>
-    <td style = "width: 10px;">2</td>
-    <td>STA 311<br>9:00</td>
-    <td>MTH 317<br>11:30</td>
-    <td>GTF 234<br>10:30</td>
-    <td>MTH 366<br>8:30</td>
-    <td>MTF 337<br>10:45</td>
-  </tr>
-  <tr>
-    <td style = "width: 10px;">3</td>
-    <td>MTH 317<br>12:30</td>
-    <td>MTH 366<br>9:30</td>
-    <td>STA 311<br>10:00</td>
-    <td>MTF 337<br>10:30</td>
-    <td>GTF 234<br>11:30</td>
-  </tr>
-  <tr>
-    <td style = "width: 10px;">4</td>
-    <td>MTH 366<br>10:00</td>
-    <td>STA 344<br>12:30</td>
-    <td>MTF 337<br>11:30</td>
-    <td>GTF 234<br>12:00</td>
-    <td>MTH 317<br>10:30</td>
-  </tr>
-  <tr>
-    <td style = "width: 10px;">5</td>
-    <td>MTH 323<br>12:30</td>
-    <td>GTF 211<br>10:00</td>
-    <td>MTF 343<br>11:00</td>
-    <td>STA 367<br>10:30</td>
-    <td>MTH 345<br>9:30</td>
-  </tr>
-  </tbody>
+  <table>
+    <thead>
+      <tr>
+        <th class="a1">№</th>
+        <th class="b1">Цикл</th>
+        <th class="c1">Код дисциплины</th>
+        <th class="d1">Название</th>
+        <th class="e1">Кол. часов</th>
+        <th class="f1">Кредиты</th>
+        <th class="g1">Преподаватель</th>
+        <th class="h1">Вид занятия</th>
+        <th class="i1">Оценка</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th class="a">1</th>
+        <th class="b">ОК</th>
+        <th class="c">ОПД 01</th>
+        <th class="d">Применение систем управления веб-контентом</th>
+        <th class="e">60</th>
+        <th class="f">0.0</th>
+        <th class="g">Қанатова Арай</th>
+        <th class="h">Лекций</th>
+        <th class="i">100</th>
+      </tr>
+      <tr>
+        <th class="a">2</th>
+        <th class="b">ОК</th>
+        <th class="c">ОПД 02</th>
+        <th class="d">Применение базовых знаний экономики и основ предпринимательства</th>
+        <th class="e">24</th>
+        <th class="f">0.0</th>
+        <th class="g">Туленова Арайлым Тузелбаевна</th>
+        <th class="h">Лабораторные работы</th>
+        <th class="i">98</th>
+      </tr>
+      <tr>
+        <th class="a">3</th>
+        <th class="b">ОК</th>
+        <th class="c">ОПД 01</th>
+        <th class="d">Применение информационно-коммуникационных и цифровых технологий</th>
+        <th class="e">48</th>
+        <th class="f">0.0</th>
+        <th class="g">Жуниспаева Айгерим Бауыржановна</th>
+        <th class="h">Лабораторные работы</th>
+        <th class="i">89</th>
+      </tr>
+      <tr>
+        <th class="a">4</th>
+        <th class="b">ОК</th>
+        <th class="c">СД 01</th>
+        <th class="d">Проектирование и разработка веб-ресурсов (HTML, CSS, фреймворки)</th>
+        <th class="e">72</th>
+        <th class="f">0.0</th>
+        <th class="g">Тұрғамбай Еламан Жоламанұлы</th>
+        <th class="h">Лабораторные работы</th>
+        <th class="i">95</th>
+      </tr>
+    </tbody>
   </table>
-  </div>
+  <script src="gg.js"></script>
 </body>
 </html>

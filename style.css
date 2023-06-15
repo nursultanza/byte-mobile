@@ -23,14 +23,12 @@ select{
   text-align: center;
 }
 table {
-  height: 150px;
     border-collapse: separate;
     border-spacing: 0;
     width: 100%;
   }
 
   th, td {
-    height: 100px;
     padding: 8px;
     text-align: center;
     border: 1px solid #4763E4;
@@ -109,7 +107,37 @@ table {
   width: 143px;
   height: 92px;
 }
-
+.i{
+  width: 115px;
+  height: 92px;
+}
+.a1{
+  height: 58px;
+}
+.b1{
+  height: 58px;
+}
+.c1{
+  height: 58px;
+}
+.d1{
+  height: 58px;
+}
+.e1{
+  height: 58px;
+}
+.f1{
+  height: 58px;
+}
+.g1{
+  height: 58px;
+}
+.h1{
+  height: 58px;
+}
+.i1{
+  height: 58px;
+}
 .primary-select {
   padding: 10px;
   background-color: white;
@@ -141,4 +169,4 @@ table {
   .primary-btn {
     padding: 10px 20px;
   }
-}
+} 
