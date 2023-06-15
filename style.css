@@ -1,0 +1,144 @@
+body{
+  font-family: 'Inter', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: black;
+
+}
+button{
+  margin-top: 15px;
+  border: 1px solid #4763E4;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-align: center;
+}
+table {
+  height: 150px;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+  }
+
+  th, td {
+    height: 100px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #4763E4;
+  }
+
+  thead th:first-child {
+    border-top-left-radius: 8px;
+  }
+
+  tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+  }
+  
+  tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+  }
+  tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+  }
+.search{
+  width: 1200px;
+  margin-top: 15px;
+  height: 40px;
+  border: 1px solid #4763E4;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.start{
+  text-align: center;
+  margin-top: 13px;
+}
+.he{
+  margin-left: 20px;
+  display: flex;
+  gap: 348px;
+  margin-left: 50px;
+  margin-bottom: 28px;
+}
+.W{
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+.a{
+  width: 10px;
+  height: 92px;
+}
+.b{
+  width: 78px;
+  height: 92px;
+}
+.c{
+  width: 103px;
+  height: 92px;
+}
+.d{
+  width: 168px;
+  height: 92px;
+}
+.e{
+  width: 106px;
+  height: 92px;
+}
+.f{
+  width: 76px;
+  height: 92px;
+}
+.g{
+  width: 231px;
+  height: 92px;
+}
+.h{
+  width: 143px;
+  height: 92px;
+}
+
+.primary-select {
+  padding: 10px;
+  background-color: white;
+  margin-left: 110px;
+  width: 120px;
+}
+
+.primary-select >* option {
+  padding: 10px;
+  border-radius: 0;
+}
+.primary-border {
+  border-radius: 10px;
+  border: 1px solid #4763E4;
+}
+.primary-btn {
+  cursor: pointer;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #4763E4;
+  padding: 10px 150px;
+  background: #fff;
+  margin: 10px 0;
+  height: 70%;
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .primary-btn {
+    padding: 10px 20px;
+  }
+}
